@@ -1,0 +1,176 @@
+.content__inner--mod {
+    max-width: 44rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-bottom: 8rem;
+}
+
+.content__header--mod { 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content__preview {
+    width: 100%;
+    aspect-ratio: 3/2;
+    border-radius: var(--radius-m);
+    overflow: hidden;
+    position: relative;
+}
+
+.content__preview-image {
+    object-fit: cover;
+}
+
+.content__description {
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.code-block--wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.code-block {
+    position: relative;
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-m);
+    padding: 1.5rem 4rem 1.5rem 1.5rem;
+}
+
+.code-block pre,
+.code-block code {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.code-block code {
+  display: block;
+  white-space: inherit;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.code-block__copy {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: none;
+    background: var(--color-bg-tertiary);
+    border-radius: var(--radius-s);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    padding: 0.875rem;
+    transition: 0.2s;
+}
+
+.code-block__copy svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.code-block__copy:hover {
+  color: var(--color-text-primary);
+}
+
+.code-block__copy--success {
+  color: var(--color-text-primary);
+}
+
+pre[class*="language-"],
+code[class*="language-"] {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+pre[class*="language-"] {
+  width: 100%;
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+code[class*="language-"] {
+  display: block;
+  white-space: inherit;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Стилизация цветов в коде */
+
+/* Комментарии */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6A9955;
+}
+
+/* Теги и ключевые слова */
+.token.tag,
+.token.keyword {
+  color: #569CD6;
+}
+
+/* Атрибуты */
+.token.attr-name {
+  color: #9CDCFE;
+}
+
+/* Значения атрибутов и строки */
+.token.attr-value,
+.token.string {
+  color: #CE9178;
+}
+
+/* Числа, булевы, константы */
+.token.number,
+.token.boolean,
+.token.constant,
+.token.symbol {
+  color: #B5CEA8;
+}
+
+/* Функции */
+.token.function {
+  color: #DCDCAA;
+}
+
+/* Классы и селекторы */
+.token.class-name {
+  color: #4EC9B0;
+}
+
+/* Пунктуация */
+.token.punctuation {
+  color: #D4D4D4;
+}
+
+/* Операторы */
+.token.operator {
+  color: #D4D4D4;
+}

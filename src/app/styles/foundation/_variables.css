@@ -1,0 +1,45 @@
+:root {
+    /* Tokens dark theme */
+    --black: #000000;
+    --gray-900: #0e0e0e;
+    --gray-800: #20201f;
+    --gray-700: #353535;
+    --gray-600: #7d7d7d;
+    --gray-500: #b7b7b7;
+    --white: #ffffff;
+
+    /* Bg color */
+    --color-bg-primary: var(--black);
+    --color-bg-secondary: var(--gray-900);
+    --color-bg-tertiary: var(--gray-800);
+    --color-bg-inverted: var(--white);
+
+    /* Border color */
+    --color-border: var(--gray-800);
+    --color-border-inverted: var(--white);
+
+    /* Text color */
+    --color-text-primary: var(--white);
+    --color-text-secondary: var(--gray-500);
+    --color-text-tertiary: var(--gray-600);
+    --color-text-disabled: var(--gray-700);
+    --color-text-inverted: var(--black);
+
+    /* Fonts */
+    --font-primary: var(--font-family-primary, 'Golos Text', sans-serif);
+    --font-mono: var(--font-family-mono, 'IBM Plex Mono', monospace);
+
+    /* Typography size */
+    --font-size-l: 1.875rem;
+    --font-size-base: 1rem;
+    --font-size-s: 0.875rem;
+    --font-size-xs: 0.75rem;
+
+    /* Radius */
+    --radius-m: 0.5rem;
+    --radius-s: 0.25rem;
+
+    /* Line height */
+    --lh-s: 1.2;
+    --lh-m: 1.6;
+}

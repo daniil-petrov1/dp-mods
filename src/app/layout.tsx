@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Golos_Text, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const golosText = Golos_Text({
+  subsets: ["latin", "cyrillic"],
+  display: "swap",
+  weight: ["400", "500"],
+  variable: "--font-family-primary",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const ibmPlexMono = IBM_Plex_Mono({
+  subsets: ["latin", "cyrillic"],
+  display: "swap",
+  weight: ["400", "500"],
+  variable: "--font-family-mono",
 });
 
 export const metadata: Metadata = {
@@ -23,8 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="ru">
+      <body
+        className={`${golosText.className} ${golosText.variable} ${ibmPlexMono.variable}`}
+      >
         {children}
       </body>
     </html>

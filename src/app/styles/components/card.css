@@ -1,0 +1,54 @@
+.mod-card {
+  background: #0E0E0E;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid #20201F;
+  transition: 0.2s ease;
+  padding: 0.5rem;
+}
+
+.mod-card:hover {
+  background-color: #20201F;
+}
+
+.mod-card__link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.mod-card__thumb {
+  width: 100%;
+  aspect-ratio: 3/2;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  position: relative;
+}
+
+.mod-card__image {
+  object-fit: cover;
+}
+
+.mod-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem;
+}
+
+.mod-card__num {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  color: #7D7D7D;
+  margin-bottom: 0.3rem;
+}
+
+.mod-card__name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+}
