@@ -29,7 +29,7 @@ export const mods: Mod[] = [
     order: 1,
     title: "Видео на фоне в зеро блок",
     description:
-      "Видео добавляется в элемент HTML в зероблоке.",
+      "Видео добавляется в элемент HTML в зероблоке.  Поправить ссылку: вместо www.dropbox.com поставить dl.dropboxusercontent.com",
     cover: {
       src: "/img/tilda-video-bg.jpg",
       alt: "Превью модификации «Видео на фоне в зеро блок»",
