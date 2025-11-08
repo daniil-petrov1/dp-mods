@@ -15,7 +15,6 @@ export default function HomePage() {
 
       <main className="content">
         <div className="content__inner">
-          <SearchForm />
 
           <header className="content__header">
             <h1 className="content__title">Библиотека модификаций DP Mods</h1>
