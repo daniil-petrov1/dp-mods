@@ -93,7 +93,7 @@ export function Sidebar() {
             className="sidebar__credit"
             rel="noopener noreferrer"
           >
-            Code by Daniel Petrov
+            Code by Daniil Petrov
           </a>
         </div>
       </div>
