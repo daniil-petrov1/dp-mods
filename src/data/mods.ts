@@ -31,7 +31,7 @@ export const mods: Mod[] = [
     description:
       "Подробное описание, пара абзацев о том, что делает модификация. Можно оставить текст-заглушку, если готового описания нет.",
     cover: {
-      src: "/img/hotel.png",
+      src: "/img/tilda-video-bg-jpg",
       alt: "Превью модификации «Видео на фоне в зеро блок»",
     },
     code: {
@@ -40,7 +40,7 @@ export const mods: Mod[] = [
   <source src="https://dl.dropboxusercontent.com/scl/fi/9gm9c7a1dnelz0d8jy4v6/bg-vid.mp4?rlkey=h9kfretr8sx7xmdv1z34ek4m2&st=vxpdxqqi&dl=0" type="video/mp4">
 </video>`,
     },
-    platform: "webflow",
+    platform: "tilda",
   },
   {
     slug: "parallax-scroll",
