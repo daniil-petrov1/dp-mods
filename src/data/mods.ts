@@ -40,7 +40,7 @@ export const mods: Mod[] = [
   <source src="https://dl.dropboxusercontent.com/scl/fi/9gm9c7a1dnelz0d8jy4v6/bg-vid.mp4?rlkey=h9kfretr8sx7xmdv1z34ek4m2&st=vxpdxqqi&dl=0" type="video/mp4">
 </video>`,
     },
-    platform: "webflow",
+    platform: "tilda",
   },
     {
     slug: "webflow-video-stopper",
